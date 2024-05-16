@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'ChcocoFont';
+    src: url('font.ttf');
+}
+
+body {
+    background-color: turquoise;
+    font-family: 'ChcocoFont';
+    font-size: 20px;
+}
+
+H3 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: left;
+}
+
+.info-div {
+    margin-left: 3vh;
+    text-overflow: hidden;
+    border-radius: 5%;
+    padding: normal;
+    padding-left: 1vh;
+    width: 30vw;
+    height: 25vh;
+    background-color: aquamarine;
+    word-wrap: break-word;
+    font-size: 13;
+    overflow-wrap: break-word;
+}
+
+.text-div {
+    margin-top: 3vh;
+    border-top: 3px black solid;
+    align-self: left;
+    height: 60vh;
+    width: 50vw;
+    margin-left: 0px;
+}
+
+.social-contacts-div {
+    display: flex;
+    justify-content: space-around;
+    z-index: 999;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
